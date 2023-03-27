@@ -1,0 +1,70 @@
+.three .panel {
+    /* min height incase content is higher than window height */
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: sans-serif;
+    /* outline: 10px solid hotpink; */
+    /* turn above on to see the edge of panels */
+}
+
+
+/* colours */
+
+.three .color-violet {
+    background-color: #7a4eab;
+}
+
+.three .color-indigo {
+    background-color: #4332cf;
+}
+
+.three .color-blue {
+    background-color: #2f8fed;
+}
+
+.three .color-green {
+    background-color: #4dcf42;
+}
+
+.three .color-yellow {
+    background-color: #faeb33;
+}
+
+.three .color-orange {
+    background-color: #f19031;
+}
+
+.three .color-red {
+    background-color: #f2293a;
+}
+
+
+/* styling for demo, can ignore */
+
+body {
+    text-align: center;
+    font-size: 120%;
+    line-height: 1.618;
+}
+
+h1,
+h2 {
+    font-size: 3em;
+    letter-spacing: -0.05em;
+    line-height: 1.1;
+}
+
+p {
+    max-width: 30em;
+    margin-bottom: 1.618em;
+}
+
+a {
+    color: #4332cf;
+}
+
+body {
+    font-family: "Kanit", sans-serif;
+}
