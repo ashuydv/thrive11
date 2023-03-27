@@ -1004,7 +1004,7 @@ body[data-aos-easing="ease-in-out-quart"] [data-aos] {
 }
 
 [data-aos^="fade"][data-aos^="fade"] {
-    opacity: 0;
+    opacity: 1 !important;
     transition-property: opacity, transform;
 }
 
