@@ -2695,6 +2695,9 @@ span.Header_Main_font {
 
 .backgroundPart3__bag_img_cont {
     margin-top: 300px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
 .backgroundPart3__bag_img {
@@ -2959,6 +2962,8 @@ span.Header_Main_font {
         margin-top: 254px;
         text-align: center;
         width: 100%;
+        flex-direction: column !important;
+        align-items: center;
     }
     .backgroundPart3__bag_img {
         height: 150px;
@@ -3000,6 +3005,11 @@ span.Header_Main_font {
         --card-margin: 10vw;
         --card-top-offset: 1em;
         --outline-width: 0px;
+    }
+    .backgroundPart3__bag_img_cont {
+        width: 100%;
+        flex-direction: row !important;
+        align-items: center;
     }
 }
 
