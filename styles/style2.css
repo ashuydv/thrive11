@@ -1183,7 +1183,7 @@ input[type="number"] {
     }
     .Dashboard--HomeTopLeft,
     .Dashboard--HomeTopRight {
-        width: 65%;
+        width: 90%;
     }
     .Dashboard--HomeBottomPic {
         height: 15vh;
@@ -2346,7 +2346,7 @@ span.Header_Main_font {
 
 .backgroundPart1 {
     margin-top: 100px;
-    width: 65%;
+    width: 100%;
 }
 
 .backgroundPart1__banner {
@@ -2493,7 +2493,7 @@ span.Header_Main_font {
 }
 
 .backgroundPart2 {
-    width: 65%;
+    width: 90%;
     background: #3c3030 !important;
 }
 
@@ -2508,13 +2508,13 @@ span.Header_Main_font {
 
 .backgroundPart2__banner h1 {
     color: #fff;
-    font: italic normal 700 80px/80px Poppins;
+    font: normal normal 700 60px/60px Kanit;
     text-align: left;
 }
 
 .backgroundPart2__banner h3 {
     color: #fff;
-    font: normal normal 600 25px/25px Poppins;
+    font: normal normal 600 25px/25px Kanit;
     letter-spacing: 0;
     margin-top: 30px;
     opacity: 0.7;
@@ -2595,10 +2595,10 @@ span.Header_Main_font {
         width: 95vw;
     }
     .backgroundPart2__banner h1 {
-        font: italic normal 700 40px/40px Poppins;
+        font: normal normal 700 40px/40px Kanit;
     }
     .backgroundPart2__banner h3 {
-        font: normal normal 600 18px/18px Poppins;
+        font: normal normal 600 18px/18px Kanit;
         line-height: 1.4;
         text-align: left;
     }
@@ -2655,7 +2655,7 @@ span.Header_Main_font {
 
 .backgroundPart3 {
     margin-top: 50px;
-    width: 65%;
+    width: 90%;
 }
 
 .backgroundPart3__banner {
@@ -2669,13 +2669,13 @@ span.Header_Main_font {
 
 .backgroundPart3__banner h1 {
     color: #fff;
-    font: italic normal 700 80px/80px Poppins;
+    font: normal normal 700 60px/60px Kanit;
     text-align: left;
 }
 
 .backgroundPart3__banner h3 {
     color: #fff;
-    font: normal normal 600 25px/25px Poppins;
+    font: normal normal 600 25px/25px Kanit;
     letter-spacing: 0;
     line-height: 1.2;
     margin-top: 30px;
@@ -2937,11 +2937,11 @@ span.Header_Main_font {
         top: 197px;
     }
     .backgroundPart3__banner h1 {
-        font: italic normal 700 40px/40px Poppins;
+        font: normal normal 700 40px/40px Kanit;
         text-align: left;
     }
     .backgroundPart3__banner h3 {
-        font: normal normal 600 18px/18px Poppins;
+        font: normal normal 600 18px/18px Kanit;
         line-height: 1.2;
         max-width: 100%;
     }
@@ -3222,19 +3222,21 @@ span.Header_Main_font {
     width: 100%;
 }
 
-.rescue_m,
-.rescue_m_left {
+.rescue_m {
     align-items: flex-start;
     display: flex;
-    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px 50px;
 }
 
-.rescue_m_left {
+
+/* .rescue_m_left {
     flex-direction: column;
     min-height: 485px;
     padding: 90px 0 50px 150px;
     width: 50%;
-}
+} */
 
 .rescue_m_left p {
     color: #fff;
@@ -3242,16 +3244,17 @@ span.Header_Main_font {
     font-weight: 300 !important;
     line-height: 1.5;
     margin-top: 30px;
-    max-width: 85%;
+    text-align: left;
 }
 
-.rescue_m_right {
+
+/* .rescue_m_right {
     background: url(https://kashware-users-data.s3.ap-south-1.amazonaws.com/slaypay_v2_assets/Hero1.webp);
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
-}
+} */
 
 .rescue_m_right img {
     -moz-animation: fadeinphoto 1s ease-in-out infinite;
@@ -3762,8 +3765,6 @@ span.Header_Main_font {
     padding-top: 1.5rem;
     text-align: center;
 }
-
-.Waitlist--SubTitlePoppins {}
 
 .Waitlist--SubTitleSpan {
     color: #ff7970;

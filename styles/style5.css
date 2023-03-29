@@ -1,15 +1,6 @@
-/* Generated on: Fri Mar 24 2023 07:58:23 GMT+0000 (Coordinated Universal Time) */
-
-
-/* ==========================================================================
-   normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
-   ========================================================================== */
-
-
-/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
-
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 html {
-    font-family: "Kanit", sans-serif;
+    font-family: "Kanit", sans-serif !important;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
 }
@@ -287,7 +278,6 @@ body {
     margin: 0;
     min-height: 100%;
     background-color: #fff;
-    font-family: Arial, sans-serif;
     font-size: 14px;
     line-height: 20px;
     color: #333;
@@ -390,7 +380,7 @@ html[data-w-dynpage] [data-w-cloak] {
     transform: none;
     transition: none;
     direction: ltr;
-    font-family: inherit;
+    font-family: "Kanit", sans-serif;
     font-weight: inherit;
     color: inherit;
     font-size: inherit;
@@ -1152,7 +1142,7 @@ textarea.w-select {
     line-height: 12px;
     text-align: center;
     color: #999;
-    font-family: serif;
+    font-family: "Kanit", serif;
 }
 
 .w-widget-twitter-count-shim .w-widget-twitter-count-clear {
@@ -1548,7 +1538,7 @@ textarea.w-select {
 .w-lightbox-backdrop {
     color: #000;
     cursor: auto;
-    font-family: serif;
+    font-family: "Kanit", sans-serif;
     font-size: medium;
     font-style: normal;
     font-variant: normal;
@@ -1571,7 +1561,7 @@ textarea.w-select {
     bottom: 0;
     left: 0;
     color: #fff;
-    font-family: "Helvetica Neue", Helvetica, Ubuntu, "Segoe UI", Verdana, sans-serif;
+    font-family: "Kanit", sans-serif;
     font-size: 17px;
     line-height: 1.2;
     font-weight: 300;
@@ -2021,6 +2011,7 @@ textarea.w-select {
     text-align: left;
     margin-left: auto;
     margin-right: auto;
+    font-family: "Kanit", sans-serif;
 }
 
 .w-nav-link.w--current {
@@ -2270,7 +2261,7 @@ textarea.w-select {
 }
 
 body {
-    font-family: Poppins, sans-serif;
+    font-family: "Kanit", sans-serif !important;
     color: #333;
     font-size: 1rem;
     line-height: 1.5;
@@ -2288,7 +2279,7 @@ h2 {
     margin-top: 0px;
     margin-bottom: 0px;
     font-size: 32px;
-    line-height: 36px;
+    line-height: 20px !important;
     font-weight: 700;
 }
 
@@ -2326,7 +2317,7 @@ h6 {
 
 p {
     margin-bottom: 1.25em;
-    font-family: Poppins, sans-serif;
+    font-family: "Kanit", sans-serif !important;
 }
 
 ul {
@@ -2348,7 +2339,7 @@ ul {
     flex-direction: column;
     align-items: center;
     background-color: #fce7cf;
-    font-family: Poppins, sans-serif;
+    font-family: "Kanit", sans-serif !important;
     color: #181818;
     font-weight: 400;
 }
@@ -3144,7 +3135,7 @@ ul {
 }
 
 .is-txt-xsmall {
-    font-family: Poppins, sans-serif;
+    font-family: "Kanit", sans-serif !important;
     font-size: 0.7rem;
     line-height: 1.6;
 }
@@ -3199,7 +3190,7 @@ ul {
 }
 
 .is-txt-small {
-    font-family: Poppins, sans-serif;
+    font-family: "Kanit", sans-serif !important;
     font-size: 0.9rem;
     line-height: 1.5;
 }
@@ -3292,7 +3283,7 @@ ul {
 }
 
 .is-txt-large {
-    font-family: Poppins, sans-serif;
+    font-family: "Kanit", sans-serif !important;
     font-size: 1.5em;
     line-height: 1.6;
 }
@@ -3765,7 +3756,7 @@ ul {
 }
 
 .is-txt-xlarge {
-    font-family: Poppins, sans-serif;
+    font-family: "Kanit", sans-serif !important;
     font-size: 2em;
     line-height: 1.4;
 }
@@ -3814,7 +3805,7 @@ ul {
 }
 
 .is-txt-medium {
-    font-family: Poppins, sans-serif;
+    font-family: "Kanit", sans-serif !important;
     font-size: 1rem;
     line-height: 1.6;
 }
@@ -4038,6 +4029,13 @@ ul {
     line-height: 1.1;
     font-style: normal;
     font-weight: 700;
+}
+
+.is-display.is-txt-align-center.is-txt-white-50 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .is-pad-t-256 {
@@ -5153,7 +5151,7 @@ ul {
 .is-txt-marquee {
     display: inline-block;
     flex: 0 0 auto;
-    font-family: Poppins, sans-serif;
+    font-family: "Kanit", sans-serif !important;
     color: #301b03;
     font-size: 7em;
     line-height: 1;
@@ -7604,38 +7602,10 @@ ul {
     }
 }
 
-@font-face {
-    src: url("https://assets.website-files.com/63e9e777ca756dd1bcd0e4d1/63f7a097e30ffb5935544344_Poppins-SemiBold.woff2") format("woff2");
-    font-weight: 600;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    src: url("https://assets.website-files.com/63e9e777ca756dd1bcd0e4d1/63f7a0976b55585db020039c_Poppins-Regular.woff2") format("woff2");
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    src: url("https://assets.website-files.com/63e9e777ca756dd1bcd0e4d1/63f7a098178adf482b1fa64b_Sora-Bold.woff2") format("woff2");
-    font-weight: 700;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    src: url("https://assets.website-files.com/63e9e777ca756dd1bcd0e4d1/63f7a098178adf482b1fa64b_Sora-Bold.woff2") format("woff2");
-    font-weight: 700;
-    font-style: normal;
-    font-display: swap;
-}
-
 .is-bg-dark-dots {
-    background-color: #F48A07;
+    background-color: #f48a07;
     opacity: 1;
-    background-image: radial-gradient(#515151 0.65px, #F48A07 0.65px);
+    background-image: radial-gradient(#515151 0.65px, #f48a07 0.65px);
     background-size: 24px 24px;
 }
 
@@ -7655,18 +7625,6 @@ font-face {
 }
 
 body {
-    font-family: 'Kanit', sans-serif !important;
-}
-
-.is-bg-dark-dots {
-    background-color: #f48a07;
-    opacity: 1;
-    background-image: radial-gradient(#515151 0.65px, #f48a07 0.65px);
-    background-size: 24px 24px;
-    margin: 5rem auto;
-}
-
-body {
     font-family: "Kanit", sans-serif !important;
 }
 
@@ -7678,8 +7636,28 @@ body {
     margin: 5rem auto;
 }
 
-body {
-    font-family: "Kanit", sans-serif !important;
+.is-bg-dark-dots {
+    background-color: #f48a07;
+    opacity: 1;
+    background-image: radial-gradient(#515151 0.65px, #f48a07 0.65px);
+    background-size: 24px 24px;
+    margin: 5rem auto;
+}
+
+.is-bg-dark-dots {
+    background-color: #f48a07;
+    opacity: 1;
+    background-image: radial-gradient(#515151 0.65px, #f48a07 0.65px);
+    background-size: 24px 24px;
+    margin: 5rem auto;
+}
+
+.is-bg-dark-dots {
+    background-color: #f48a07;
+    opacity: 1;
+    background-image: radial-gradient(#515151 0.65px, #f48a07 0.65px);
+    background-size: 24px 24px;
+    margin: 5rem auto;
 }
 
 .is-bg-dark-dots {

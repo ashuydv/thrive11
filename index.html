@@ -11,10 +11,8 @@
     <link rel="stylesheet" href="styles/style2.css">
     <link rel="stylesheet" href="styles/style3.css">
     <link rel="stylesheet" href="styles/style5.css">
+    <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -22,7 +20,7 @@
         <div id="w-node-_9a9dbff4-3152-b2dd-7c55-40245d26fae2-5d26fae2" data-animation="default" data-collapse="small" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="tm-navbar w-nav">
             <div class="container-col-12 w-container">
                 <div class="tm-nav_wrapper">
-                    <a href="/" aria-current="page" class="tm-brand-link w-nav-brand w--current" aria-label="home"><img src="https://assets.website-files.com/63e9e777ca756dd1bcd0e4d1/63ea22d3057bfd64641683e8_tagmango-logo.svg" loading="lazy" alt="" class="tm-logo" width="183" height="39">Home</a>
+                    <a href="/" aria-current="page" class="tm-brand-link w-nav-brand w--current" aria-label="home"><img src="https://assets.website-files.com/63e9e777ca756dd1bcd0e4d1/63ea22d3057bfd64641683e8_tagmango-logo.svg" loading="lazy" alt="" class="tm-logo" width="183" height="39"></a>
                     <div class="tm_nav-extra">
                         <a href="#" class="tm-nav-link w-nav-link">Prices</a>
                         <a href="#" class="tm-nav-link w-nav-link">Login</a>
@@ -161,6 +159,13 @@
     </header>
 
     <section class="one">
+        <div class="banner-img relative">
+            <img src="assets/thrive-banner.png" width="100%" alt="">
+            <div class="absolute top-44 right-64  -transform-x-1/4 -transform-y-1/2">
+                <button class="px-8 py-2 bg-gradient-to-tr from-orange-400 to-yellow-500 font-medium text-lg text-gray-100 ">Get Started
+                </button>
+            </div>
+        </div>
         <div id="pg-2-2" class="panel-grid panel-has-style">
             <div class="why_bullspree siteorigin-panels-stretch panel-row-style panel-row-style-for-2-2" data-stretch-type="full-stretched-padded" style="margin-left: -20px; margin-right: -20px;">
                 <div id="pgc-2-2-0" class="panel-grid-cell">
@@ -242,8 +247,7 @@
                                                     <div class="so-widget-sow-editor so-widget-sow-editor-base">
                                                         <div class="siteorigin-widget-tinymce textwidget">
                                                             <div class="circle">
-                                                                <div class="circle_line"><img decoding="async" loading="lazy" class="alignnone wp-image-1049 size-full" src="https://bullspree.com/public/frontend/img/11/mobile_new_pus-1.png" alt="" sizes="(max-width: 424px) 100vw, 424px"
-                                                                        width="424" height="701">
+                                                                <div class="circle_line"><img decoding="async" loading="lazy" class="alignnone wp-image-1049 size-full" src="assets/mobile.png" alt="" width="340" height="100%">
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -440,7 +444,7 @@
                 <div data-color="skyblue" class="backgroundPart3 ColorPanel">
                     <div class="backgroundPart3__banner">
                         <div class="js-odoo"></div>
-                        <h1><span class="backgroundPart3__spends_text">FRIENDS</span> WITH<br> BENEFITS</h1>
+                        <h1><span class="backgroundPart3__spends_text">FRIENDS</span> WITH BENEFITS</h1>
                         <h3>GET EXCLUSIVE REWARDS &amp; OFFERS FROM 1500+ BRANDS</h3>
                     </div>
                     <div class="backgroundPart3__bag_cont">
@@ -505,7 +509,7 @@
                             }
                             
                             .text_rotate-wrap span {
-                                line-height: 1.1;
+                                line-height: 1.5;
                             }
                             
                             @media screen and (max-width: 767px) {
@@ -516,12 +520,17 @@
                         </style>
 
                         <h2 class=" is-display is-txt-align-center is-txt-white-50 ">
-                            Your
-                            <div class=" text_rotate-wrap is-txt-orange-150 " style=" height: 80px; width: auto; margin: 0rem 1rem; padding: 0rem 1rem; ">
+                            <div>
+                                Your
+                            </div>
+                            <div class=" text_rotate-wrap is-txt-orange-150 " style=" height: 80px; width: auto; margin: 0rem 1rem; padding: 0rem 1rem; line-height: 1.5; ">
                                 <div id="span_text">
-
                                 </div>
-                            </div> is worth more on TagMango
+                            </div>
+                            <br />
+                            <div>
+                                is more worth !!
+                            </div>
                         </h2>
                     </div>
                     <div class=" wrap-flex-hor-c is-margin-t-48 is-margin-b-64 ">
@@ -743,7 +752,8 @@
             strings: ["Course", "Community", "Developer"],
             typeSpeed: 40,
             backSpeed: 40,
-            loop: true
+            loop: true,
+            showCursor: false
         });
     </script>
 </body>
